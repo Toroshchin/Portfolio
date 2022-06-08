@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 body {
+  color: #000;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -16,4 +17,16 @@ body {
 .header {
   background: #f1f1f1;
   padding-top: 46px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header-nav__logo {
+  font-weight: 700;
+  font-size: 32px;
+  color: #000;
 }
