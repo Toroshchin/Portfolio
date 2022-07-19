@@ -87,3 +87,66 @@ body {
 .header__text {
   line-height: 2;
 }
+
+/* Service */
+
+.services {
+  padding: 90px 0;
+  width: 100%;
+}
+
+.services-row {
+  display: flex;
+  column-gap: 30px;
+}
+
+.service-card__img {
+  margin-bottom: 30px;
+}
+
+.service-card__title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.service-card__content {
+  font-size: 14px;
+  line-height: 2;
+}
+
+/* Portfolio */
+
+.portfolio {
+  background-color: #f1f1f1;
+  padding: 90px 0px;
+}
+
+.portfolio__title {
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.project {
+  text-align: center;
+}
+
+.project + .project {
+  margin-top: 90px;
+}
+
+.project__img {
+  margin-bottom: 40px;
+}
+
+.project__title {
+  font-size: 18px;
+}
+
+.project__title a {
+  color: #000;
+  text-decoration: underline;
+}
