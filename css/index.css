@@ -1,6 +1,10 @@
 @import './reset.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #000;
   font-family: 'Poppins', sans-serif;
@@ -68,9 +72,8 @@ body {
 /* Header content */
 
 .header__row {
-  display: flex;
-  justify-content: space-between;
-  column-gap: 30px;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 .header__content {
@@ -85,7 +88,10 @@ body {
 }
 
 .header__text {
+  font-size: 20px;
   line-height: 2;
+  width: 50%;
+  margin: 0 auto;
 }
 
 /* Service */
@@ -98,27 +104,26 @@ body {
 .services-row {
   display: flex;
   column-gap: 30px;
+  justify-content: space-between;
+}
+
+.service-card {
+  width: 33%;
 }
 
 .service-card__img {
   margin-bottom: 30px;
-}
-
-.service-card__title {
-  font-weight: 600;
-  font-size: 24px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
+  margin-left: 20px;
 }
 
 .service-card__content {
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 500;
   line-height: 2;
 }
 
 /* Portfolio */
-
-.portfolio {
+#portfolio {
   background-color: #f1f1f1;
   padding: 90px 0px;
 }
@@ -149,4 +154,39 @@ body {
 .project__title a {
   color: #000;
   text-decoration: underline;
+}
+
+#contacts {
+  padding: 90px 0;
+  text-align: center;
+}
+
+.contacts__title {
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 34px;
+}
+.contacts__content {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.contacts-button {
+  margin: 40px auto;
+  background-color: #070707;
+  width: 180px;
+  border-radius: 20px;
+  padding: 7px 10px;
+}
+
+.btn {
+  color: #f1f1f1;
+}
+
+.contacts-socials {
+  height: 50px;
+}
+
+.contacts-socials__img {
+  padding: 0 20px;
+  height: 50px;
 }
