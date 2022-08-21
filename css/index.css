@@ -61,6 +61,10 @@ body {
   font-size: 14px;
 }
 
+.header-nav__button {
+  display: none;
+}
+
 .header-nav__link {
   color: #000;
 }
