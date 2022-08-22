@@ -25,5 +25,13 @@
     font-size: 34px;
     font-weight: 600;
   }
-}
 
+  .header__text {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .header__heading {
+    font-size: 32px;
+  }
+}
