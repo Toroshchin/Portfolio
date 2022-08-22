@@ -5,8 +5,8 @@
 
   .header-nav-button {
     display: block;
-    z-index: 9;
     position: fixed;
+    z-index: 9;
     top: 46px;
     right: 30px;
   }
@@ -26,3 +26,4 @@
     font-weight: 600;
   }
 }
+
