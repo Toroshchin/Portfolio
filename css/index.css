@@ -8,7 +8,6 @@ html {
 body {
   color: #000;
   font-family: 'Poppins', sans-serif;
-  min-width: 600px;
 }
 
 .wrapper {
@@ -83,7 +82,6 @@ body {
 }
 
 .header__content {
-  min-width: 500px;
   margin-top: 124px;
 }
 
@@ -134,7 +132,6 @@ body {
 .portfolio {
   background-color: #f1f1f1;
   padding: 90px 0px;
-  min-width: 600px;
 }
 
 .portfolio__title {
