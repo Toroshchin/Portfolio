@@ -8,6 +8,7 @@ html {
 body {
   color: #000;
   font-family: 'Poppins', sans-serif;
+  min-width: 600px;
 }
 
 .wrapper {
@@ -130,9 +131,10 @@ body {
 }
 
 /* Portfolio */
-#portfolio {
+.portfolio {
   background-color: #f1f1f1;
   padding: 90px 0px;
+  min-width: 600px;
 }
 
 .portfolio__title {
