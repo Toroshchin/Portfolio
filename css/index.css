@@ -167,10 +167,7 @@ body {
 }
 
 .project__title {
-  font-size: 18px;
-}
-
-.project__title a {
+  font-size: 22px;
   color: #000;
   text-decoration: underline;
 }
