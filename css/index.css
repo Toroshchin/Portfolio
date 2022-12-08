@@ -17,7 +17,14 @@ body {
   font-size: 14px;
 }
 
-/* Header */
+.title-block {
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 34px;
+  text-align: center;
+}
+
+/* HEADER */
 
 .header {
   background: #f1f1f1;
@@ -52,7 +59,11 @@ body {
   border-radius: 50%;
 }
 
-/* Header nav */
+/* HEADER NAV */
+
+.header-nav {
+  display: flex;
+}
 
 .header-nav__list {
   display: flex;
@@ -74,7 +85,7 @@ body {
   color: #606060;
 }
 
-/* Header content */
+/* HEADER CONTENT */
 
 .header__row {
   text-align: center;
@@ -98,7 +109,7 @@ body {
   margin: 0 auto;
 }
 
-/* Service */
+/* SERVICE */
 
 .services {
   padding: 90px 0;
@@ -107,28 +118,30 @@ body {
 
 .services-row {
   display: flex;
+  justify-content: space-between;
   column-gap: 30px;
   flex-wrap: wrap;
   row-gap: 60px;
 }
 
 .service-card {
-  flex: 1 1 0;
-  min-width: 315px;
+  flex: 1;
+  min-width: 260px;
+  text-align: center;
 }
 
 .service-card__img {
-  margin-bottom: 30px;
-  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .service-card__content {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 2;
 }
 
-/* Portfolio */
+/* PORTFOLIO */
+
 .portfolio {
   background-color: #f1f1f1;
   padding: 90px 0px;
@@ -162,19 +175,16 @@ body {
   text-decoration: underline;
 }
 
-#contacts {
+/* CONTACTS */
+
+.contacts {
   padding: 90px 0;
-  text-align: center;
 }
 
-.contacts__title {
-  margin-bottom: 40px;
-  font-weight: 600;
-  font-size: 34px;
-}
 .contacts__content {
   font-size: 18px;
   margin-bottom: 40px;
+  text-align: center;
 }
 .contacts-button {
   margin: 40px auto;
@@ -189,10 +199,11 @@ body {
 }
 
 .contacts-socials {
-  height: 50px;
+  margin-top: 30px;
 }
 
 .contacts-socials__img {
   padding: 0 20px;
   height: 50px;
+  width: auto;
 }
